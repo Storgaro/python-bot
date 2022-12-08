@@ -27,14 +27,10 @@ def get_country_embed(pais):
     pais_raw = requests.get(
         f"https://restcountries.com/v3.1/name/{pais}")
     data_pais = pais_raw.json()
-    clima_raw = requests.get(
-        f"https://api.openweathermap.org/data/2.5/weather?lat={data_pais[0]['latlng'][0]}&lon={data_pais[0]['latlng'][1]}&appid={'2cd4b906451c18a0484baf589f40dc4f'}&lang=es")
-    data_clima = clima_raw.json()
     nombre_pais = data_pais[0]['name']['common']
     capital = data_pais[0]['capital'][0]
     region = data_pais[0]['region']
     population = data_pais[0]['population']
-    weather = data_clima['weather'][0]['description']
     flag = data_pais[0]['flags']['png']
     image = PIL.Image.open(requests.get(flag, stream=True).raw)
 
@@ -53,8 +49,6 @@ def get_country_embed(pais):
                     value=f" {'{:,}'.format(population)}", inline=True)
     embed.add_field(name="Region", value=region, inline=True)
     embed.set_thumbnail(url=flag)
-    embed.add_field(name="Clima", value=weather)
-    embed.set_image(url=f"http://openweathermap.org/img/wn/{data_clima['weather'][0]['icon']}@2x.png")
             
     return embed
 
