@@ -24,7 +24,7 @@ El bot correrá en cualquier computadora siempre y cuando se sigan los siguiente
 
 ![imagen4final](https://drive.google.com/file/d/1Lr4OQ4rLCeW0LRZmR88BpKBfq14J1xYa/view?usp=share_link)
 
-`**!iniciar**` Comando simple para que el bot de inicio a todas sus funciones, si el registro fue satisfactorio deberás obtener un mensaje que diga: ***_Iniciaste sesion_***.
+`!iniciar` Comando simple para que el bot de inicio a todas sus funciones, si el registro fue satisfactorio deberás obtener un mensaje que diga: ***_Iniciaste sesion_***.
 
 ![imagen5final](https://drive.google.com/file/d/1bcB3qw75hPDoDmb1LYpvcHCOed89EkPi/view?usp=share_link)
 
