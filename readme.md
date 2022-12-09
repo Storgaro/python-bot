@@ -1,13 +1,13 @@
 # World Cup 2022 Python Bot
 
 ## Un bot en discord capaz de darte información de interés sobre partidos, encuentros y puntajes de tus equipos favoritos dentro de este nuevo mundial de fútbol Qatar 2022
----
+
 El bot correrá en cualquier computadora siempre y cuando se sigan los siguientes pasos para una correcta instalación ♥
 ---
 ### Características:
----
+
 #### Comandos del bot:
----
+
 `!hola` este comando te dará una rápida bienvenida al bot, así como te dará el primer comando que debes colocar para así obtner mas información de lo que puede hacer.
 
 ![imagen1final](https://drive.google.com/file/d/1EsfpHQDQvb3lFzTbTykrghVihTvxVM9Q/view?usp=share_link)
