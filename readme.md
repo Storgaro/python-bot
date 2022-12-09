@@ -10,23 +10,23 @@ El bot correrá en cualquier computadora siempre y cuando se sigan los siguiente
 
 `!hola` este comando te dará una rápida bienvenida al bot, así como te dará el primer comando que debes colocar para así obtner mas información de lo que puede hacer.
 
-![imagen1final](https://drive.google.com/file/d/1EsfpHQDQvb3lFzTbTykrghVihTvxVM9Q/view?usp=share_link)
+![imagen1final](images/imagen%201%20final.jpg)
 
 `!ayuda` Un comando básico para así obtener la información necesaria sobre todos los comandos y la forma enque debes registrarte e iniciar sesión.
 
-![imagen2final](https://drive.google.com/file/d/1gQUnHu6Lr6wLdL6XLLLfMVA6sL6IiB9s/view?usp=share_link)
+![imagen2final](images/image2def.jpg)
 
 `!registro` Funciona para poder ingresar en la base de datos del bot, sin este registro no podras iniciar ni realizar ninguna acción (la forma en la que debes registrate está en el comando de ayuda).
 
-![imagen3final](https://drive.google.com/file/d/1yVgWBRjvzdM1r0CjSLy2-9S0617IZwjb/view?usp=sharing)
+![imagen3final](images/imagen3def.jpg)
 
 `!usuario` Te ayuda a conocer el nombre de usuario que colocaste como registro.
 
-![imagen4final](https://drive.google.com/file/d/1Lr4OQ4rLCeW0LRZmR88BpKBfq14J1xYa/view?usp=share_link)
+![imagen4final](images/imagen4def.jpg)
 
 `!iniciar` Comando simple para que el bot de inicio a todas sus funciones, si el registro fue satisfactorio deberás obtener un mensaje que diga: ***_Iniciaste sesion_***.
 
-![imagen5final](https://drive.google.com/file/d/1bcB3qw75hPDoDmb1LYpvcHCOed89EkPi/view?usp=share_link)
+![imagen5final](images/imagen5def.jpg)
 
 `!equipo` Coloca este comando seguido de el equipo del cual quieras obtener información; es **importante que el nombre del equipo que vayas a colocar este en inglés**.
 
@@ -34,17 +34,17 @@ El bot correrá en cualquier computadora siempre y cuando se sigan los siguiente
 
 `!partidos` Al igual que el comando anterior ingresa este seguido del **nombre del equipo en inglés** para aí obtener información de los proximos encuentrso de tus equipos favoritos.
 
-![imagen7final](https://drive.google.com/file/d/19wZg-TtR4laQtXNaJJ2zRugGWdI9hHa1/view?usp=share_link)
+![imagen7final](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nasa.gov%2Fpress-release%2Fla-nasa-revela-las-primeras-im-genes-del-telescopio-webb-de-un-universo-nunca-antes&psig=AOvVaw0EpfR2TcgibDJrlwrs6byC&ust=1670687722523000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMCI3bXy7PsCFQAAAAAdAAAAABAE)
 
 `!grupo` Busca tambien por grupos y así obtendrás los puntajes de un grupo determinado dentro de este mundial.
 
-![imagen8final](https://drive.google.com/file/d/1uC_F6pxlKYAqdd414bCwDXpgNeZVGK-m/view?usp=share_link)
+![imagen8final](images/imagen8def.jpg)
 
 ***
 
 ### Herramientas necearias para instalar el bot:
 
-#### Windows 10:
+#### Windows:
 
 *	Instala Python en su versión 3.10.8 (***es necesario que sea la versión antes mencionada para que el bot pueda funcionar, versiones posteriores no son soportadas***); ( https://www.python.org/downloads/)
 *	Como editor de código usaremos Visual Studio Code; existen muchas alternativas, sin embargo, el código está hecho en este editor.
