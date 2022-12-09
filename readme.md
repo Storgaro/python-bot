@@ -114,7 +114,7 @@ _Consulte el archivo ejemplo.env para obtener más información._
 
 #### Instalar las dependenciaas necesarias:
 
-En su terminal escruba el siguiente códigoÑ
+En su terminal escruba el siguiente código:
 
 `pip install (Seguido del nombre de la dependencia que le haga falta)`
 
