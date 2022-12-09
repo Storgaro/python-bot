@@ -10,35 +10,35 @@ El bot correrá en cualquier computadora siempre y cuando se sigan los siguiente
 
 `!hola` este comando te dará una rápida bienvenida al bot, así como te dará el primer comando que debes colocar para así obtner mas información de lo que puede hacer.
 
-![imagen1final](images/imagen%201%20final.jpg)
+![](https://raw.githubusercontent.com/Storgaro/imagenes/main/images.md/imagen%201%20final.jpg?token=GHSAT0AAAAAAB4FVQQKLIL4UTQXXSRIG3ACY4TMBTA)
 
 `!ayuda` Un comando básico para así obtener la información necesaria sobre todos los comandos y la forma enque debes registrarte e iniciar sesión.
 
-![imagen2final](images/image2def.jpg)
+![imagen2final](https://raw.githubusercontent.com/Storgaro/imagenes/main/images.md/image2def.jpg?token=GHSAT0AAAAAAB4FVQQKTZ6SBYOS4BXJHV4CY4TNSNA)
 
 `!registro` Funciona para poder ingresar en la base de datos del bot, sin este registro no podras iniciar ni realizar ninguna acción (la forma en la que debes registrate está en el comando de ayuda).
 
-![imagen3final](images/imagen3def.jpg)
+![imagen3final](https://raw.githubusercontent.com/Storgaro/imagenes/main/images.md/imagen3def.jpg?token=GHSAT0AAAAAAB4FVQQKMAIFKFOU2SH5YYLQY4TNS3Q)
 
 `!usuario` Te ayuda a conocer el nombre de usuario que colocaste como registro.
 
-![imagen4final](images/imagen4def.jpg)
+![imagen4final](https://raw.githubusercontent.com/Storgaro/imagenes/main/images.md/imagen4def.jpg?token=GHSAT0AAAAAAB4FVQQK4TFPJWMISPPFL6PUY4TNTIQ)
 
 `!iniciar` Comando simple para que el bot de inicio a todas sus funciones, si el registro fue satisfactorio deberás obtener un mensaje que diga: ***_Iniciaste sesion_***.
 
-![imagen5final](images/imagen5def.jpg)
+![imagen5final](https://raw.githubusercontent.com/Storgaro/imagenes/main/images.md/imagen5def.jpg?token=GHSAT0AAAAAAB4FVQQKENDG7MDRRWQRVJB2Y4TNTRA)
 
 `!equipo` Coloca este comando seguido de el equipo del cual quieras obtener información; es **importante que el nombre del equipo que vayas a colocar este en inglés**.
 
-![imagen6final](https://drive.google.com/file/d/1BwKY9ilwW7rQr-IQx3Zr2m1hvP1PCs_t/view?usp=share_link)
+![imagen6final](https://raw.githubusercontent.com/Storgaro/imagenes/main/images.md/imagen6def.jpg?token=GHSAT0AAAAAAB4FVQQKKLJTKK2FKIJMUGVUY4TNT2A)
 
 `!partidos` Al igual que el comando anterior ingresa este seguido del **nombre del equipo en inglés** para aí obtener información de los proximos encuentrso de tus equipos favoritos.
 
-![imagen7final](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nasa.gov%2Fpress-release%2Fla-nasa-revela-las-primeras-im-genes-del-telescopio-webb-de-un-universo-nunca-antes&psig=AOvVaw0EpfR2TcgibDJrlwrs6byC&ust=1670687722523000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMCI3bXy7PsCFQAAAAAdAAAAABAE)
+![imagen7final](https://raw.githubusercontent.com/Storgaro/imagenes/main/images.md/imagen7def.jpg?token=GHSAT0AAAAAAB4FVQQKX6IKLUHAZYFH4AGIY4TNUDA)
 
 `!grupo` Busca tambien por grupos y así obtendrás los puntajes de un grupo determinado dentro de este mundial.
 
-![imagen8final](images/imagen8def.jpg)
+![imagen8final](https://raw.githubusercontent.com/Storgaro/imagenes/main/images.md/imagen8def.jpg?token=GHSAT0AAAAAAB4FVQQLB5YDKAIO2EDNQFMQY4TNULA)
 
 ***
 
@@ -65,18 +65,45 @@ Posteriormente da enter en _SI_ y espera a que la descarga de todos los archivos
 
 1.	En tu buscador de preferencia dirígete a la página de [Discord developer]( https://discord.com/developers/applications.).
 2.	Clickea en el botón de **New Application**
+
+![imagen9final](https://user-images.githubusercontent.com/8563780/162317136-4373626f-9f7a-4d7f-880c-60e470c64d69.png)
+
 3.	Posteriormente coloca el nombre que gustes a tu **Servidor de Discord**
 4.	En el menu de la izquierda selecciona la pestaña de Bot.
+
+![imagen10final](https://user-images.githubusercontent.com/8563780/162320423-275012d1-dc06-4c10-b954-b3cd86322c2c.png)
+
 5.	Daremos click donde dice **Add Bot**
+
+![imagen11final](https://user-images.githubusercontent.com/8563780/162321199-e5b00e88-4720-45c4-86c1-0da4bf47ebf1.png)
+
 6.	En este apartado daremos nombre al Bot y daremos click en el botón de **Reset Token**.
+
+![imagen12final](https://user-images.githubusercontent.com/8563780/162322546-7119e7b5-fe30-42e2-9369-4f695f87d3d7.png)
+
 7.	Copiaremos el nuevo **Token** dado por el Bot y lo reservaremos para más adelante.
 
 #### Creando el URL para añadir el bot al servidor:
 
 1.	Nos dirigimos al menú del lado izquierdo y presionaremos la opción **OAuth2**; Copiaremos el **Cient ID** y lo reservaremos para más adelante.
-2.	Daremos click al **URL GENERTOR** y seleccionaremos las opciones de **bot** y ** applications.commands**
+
+![imagen13final](https://user-images.githubusercontent.com/8563780/162323888-77958a62-0aab-403a-9f56-1688b30ccdef.png)
+
+![imagen14final](https://user-images.githubusercontent.com/8563780/162325239-fde9fef0-9e1f-4a39-b92e-a297c73991a7.png)
+
+
+2.	Daremos click al **URL GENERTOR** y seleccionaremos las opciones de **bot** y **applications.commands**
+
+![imagen15final](https://user-images.githubusercontent.com/8563780/162325504-68045770-e28e-404c-a441-b9192f0a55a5.png)
+
 3.	Posteriormente marcaremos las casillas de los permisos, en estos seleccionaremos los mostrados a continuación.
+
+![imagen16final](https://raw.githubusercontent.com/Storgaro/imagenes/main/images.md/imagen16final.png?token=GHSAT0AAAAAAB4FVQQLJ2KRZM63HJB5WHTMY4TOEKQ)
+
 4.	Copiaremos el **URL** que nos da al final y lo pegaremos en el navegador. Este traerá un menú de Discord y nos preguntará a que servidor queremos añadir el bot. Aquí seleccionaremos el servidor que creamos hace un momento y daremos **Confirmar**.
+
+
+![imagen17final](https://raw.githubusercontent.com/Storgaro/imagenes/main/images.md/imagen17final.png?token=GHSAT0AAAAAAB4FVQQKEFA5Y4BF52LJU7GGY4TOEVA)
 
 Por último, ya tenemos el bot dentro de nuestro servidor y ahora procederemos a activar sus funciones.
 
