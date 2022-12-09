@@ -10,23 +10,23 @@ El bot correrá en cualquier computadora siempre y cuando se sigan los siguiente
 
 `!hola` este comando te dará una rápida bienvenida al bot, así como te dará el primer comando que debes colocar para así obtner mas información de lo que puede hacer.
 
-![imagen1def](https://raw.githubusercontent.com/Storgaro/imagenes/main/images.md/imagen-1-final.png?token=GHSAT0AAAAAAB4FVQQLULOGVVJM2IHL42K4Y4TOQPQ)
+![imagen1def](https://github.com/Storgaro/imagenes/blob/main/images.md/imagen-1-final.png)
 
 `!ayuda` Un comando básico para así obtener la información necesaria sobre todos los comandos y la forma enque debes registrarte e iniciar sesión.
 
-![imagen2final](https://raw.githubusercontent.com/Storgaro/imagenes/main/images.md/image2def.png?token=GHSAT0AAAAAAB4FVQQKVAVJ24D7DHBHR4RWY4TOQZQ)
+![imagen2final](https://github.com/Storgaro/imagenes/blob/main/images.md/image2def.png)
 
 `!registro` Funciona para poder ingresar en la base de datos del bot, sin este registro no podras iniciar ni realizar ninguna acción (la forma en la que debes registrate está en el comando de ayuda).
 
-![imagen3final](https://raw.githubusercontent.com/Storgaro/imagenes/main/images.md/imagen3def.png?token=GHSAT0AAAAAAB4FVQQL4Q4ASW3UIABPMSQUY4TORDA)
+![imagen3final](https://github.com/Storgaro/imagenes/blob/main/images.md/imagen3def.png)
 
 `!usuario` Te ayuda a conocer el nombre de usuario que colocaste como registro.
 
-![imagen4final](https://raw.githubusercontent.com/Storgaro/imagenes/main/images.md/imagen4def.png?token=GHSAT0AAAAAAB4FVQQKMLLVJLKQAOO7YLL2Y4TOTHQ)
+![imagen4final](https://github.com/Storgaro/imagenes/blob/main/images.md/imagen4def.png)
 
 `!iniciar` Comando simple para que el bot de inicio a todas sus funciones, si el registro fue satisfactorio deberás obtener un mensaje que diga: ***_Iniciaste sesion_***.
 
-![imagen5final](https://raw.githubusercontent.com/Storgaro/imagenes/main/images.md/imagen5def.png?token=GHSAT0AAAAAAB4FVQQLGNCJUFUBTUJQVNHSY4TOS7Q)
+![imagen5final](https://github.com/Storgaro/imagenes/blob/main/images.md/imagen5def.png)
 
 `!equipo` Coloca este comando seguido de el equipo del cual quieras obtener información; es **importante que el nombre del equipo que vayas a colocar este en inglés**.
 
@@ -34,11 +34,11 @@ El bot correrá en cualquier computadora siempre y cuando se sigan los siguiente
 
 `!partidos` Al igual que el comando anterior ingresa este seguido del **nombre del equipo en inglés** para aí obtener información de los proximos encuentrso de tus equipos favoritos.
 
-![imagen7final](https://raw.githubusercontent.com/Storgaro/imagenes/main/images.md/imagen7def.png?token=GHSAT0AAAAAAB4FVQQKG2Q7HWDLW3HRZHD4Y4TOSMA)
+![imagen7final](https://github.com/Storgaro/imagenes/blob/main/images.md/imagen7def.png)
 
 `!grupo` Busca tambien por grupos y así obtendrás los puntajes de un grupo determinado dentro de este mundial.
 
-![imagen8final](https://raw.githubusercontent.com/Storgaro/imagenes/main/images.md/imagen8def_1.png?token=GHSAT0AAAAAAB4FVQQKQIJMI6IXQISOA74MY4TOSTQ)
+![imagen8final](https://github.com/Storgaro/imagenes/blob/main/images.md/imagen8def_1.png)
 
 ***
 
@@ -98,12 +98,12 @@ Posteriormente da enter en _SI_ y espera a que la descarga de todos los archivos
 
 3.	Posteriormente marcaremos las casillas de los permisos, en estos seleccionaremos los mostrados a continuación.
 
-![imagen16final](https://raw.githubusercontent.com/Storgaro/imagenes/main/images.md/imagen16final.png?token=GHSAT0AAAAAAB4FVQQLJ2KRZM63HJB5WHTMY4TOEKQ)
+![imagen16final](https://github.com/Storgaro/imagenes/blob/main/images.md/imagen16final.png)
 
 4.	Copiaremos el **URL** que nos da al final y lo pegaremos en el navegador. Este traerá un menú de Discord y nos preguntará a que servidor queremos añadir el bot. Aquí seleccionaremos el servidor que creamos hace un momento y daremos **Confirmar**.
 
 
-![imagen17final](https://raw.githubusercontent.com/Storgaro/imagenes/main/images.md/imagen17final.png?token=GHSAT0AAAAAAB4FVQQKEFA5Y4BF52LJU7GGY4TOEVA)
+![imagen17final](https://github.com/Storgaro/imagenes/blob/main/images.md/imagen17final.png)
 
 Por último, ya tenemos el bot dentro de nuestro servidor y ahora procederemos a activar sus funciones.
 
