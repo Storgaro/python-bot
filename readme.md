@@ -89,14 +89,14 @@ _Consulte el archivo ejemplo.env para obtener más información._
 
 En su terminal escruba el siguiente códigoÑ
 
-`pip install`
+`pip install (Seguido del nombre de la dependencia que le haga falta)`
 
-Seguido del nombre de la dependencia que le haga falta (**Las dependencias necesarias se encuentran en los IMPORT al inicio del código**).
+(**Las dependencias necesarias se encuentran en los IMPORT al inicio del código**).
 
 ### Poner a funcionar el Bot:
 
 En su terminal escriba el siguiente comando:
 
-`py (_seguido del nombre de su archivo .py_)`
+`py (seguido del nombre de su archivo .py)`
 
 Posteriormente presione **Enter** y disfrute de todas las opciones y comandos que este bot le ofrece.
