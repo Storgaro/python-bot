@@ -144,8 +144,6 @@ async def on_message(message):
        
     if message.content.lower().startswith('!registro'):
         try:
-            # mensaje = message.content.startswith('!registro')
-            # mensaje.lower()
             id = message.author.id;
             name = message.content.split(" ")[1]
             email = message.content.split(" ")[2]
@@ -202,8 +200,6 @@ async def on_message(message):
         embed.add_field(name="Sintaxis", value="!pais + ***nombre del país en inglés***.", inline=False)
         embed.add_field(name="!registro", value="Para poder iniciar el bot necesitas primero registrarte en nuestra base de datos", inline=False)
         embed.add_field(name="Sintaxis", value="!registro + ***País donde vive + Nombre y apellido***", inline=False)
-        # embed.add_field(name="!editar", value="Edita cualquier dato sobre el usuario que hayas utilizado para ingresar ya sea como pais y/o nombre", inline=False)
-        # embed.add_field(name="Sintaxis", value="!editar + ***País donde vive + Nombre y apellido***", inline=False)
         embed.add_field(name="!iniciar", value="Una vez ya tengas listo todos tus datos, es necesario que uses este comando para poder iniciar el bot", inline=False)
         embed.add_field(name="Sintaxis", value="!iniciar", inline=False)
         embed.add_field(name="!equipo", value="Busca y encuentra tu equipo favorito que participe en esta nueva copa del mundo de Qatar 2022", inline=False)
@@ -230,41 +226,6 @@ async def on_message(message):
             await message.channel.send(f"¡Usuario eliminado! <@{id}>")
         except:
             await message.channel.send(f" <@{id}>, el usuario no existe")
-
-    # if message.content.lower().startswith('!editar'):
-    #     try:
-    #         id = message.author.id
-    #         # Buscar
-    #         res = cur.execute("""
-    #                 SELECT * FROM users WHERE discord_id = ?
-    #         """, [id]) 
-    #         user = res.fetchone()[0]
-    #         if len(message.content.split(' ')) == 2:
-    #             msg = message.content.split(' ')[1]
-    #             # Editar
-    #             cur.execute("""
-    #                 UPDATE users 
-    #                 SET  
-    #                     country = ? 
-    #                 WHERE discord_id = ?
-    #         """, [msg, id])
-    #         else: 
-    #             msg = message.content.split(' ')[1]
-    #             name = message.content.split(' ')[2]
-    #             # Editar
-    #             cur.execute("""
-    #                     UPDATE users 
-    #                     SET 
-    #                         name = ?, 
-    #                         country = ? 
-    #                     WHERE discord_id = ?
-    #             """, [name,msg, id]) 
-    #             con.commit()
-    #         await message.channel.send(f"¡país editado! <@{id}>")
-    #     except IndexError:
-    #         await message.channel.send(f" <@{id}>, coloque el comando seguido de ***pais***, ***nombre de usuario***")
-    #     except:
-    #         await message.channel.send(f" <@{id}>, el usuario no existe")
 
     if message.content.lower().startswith('!usuario'):
         id = message.author.id
@@ -354,9 +315,9 @@ async def on_message(message):
         await message.channel.send(embed=embed)
 
         if message.content.split(' ')[1] == '':
-            await message.channel.send(f"<@{id}>, parece que has escrito mal el comando. Intenta hacerlo de la siguiente manera: ***!equipo*** ***pais*** (no agregues espacios de más)")
+            await message.channel.send(f"<@{id}>, Oops! parece que has escrito mal el comando. Por favor hazlo de la siguiente manera: **!equipo** **pais** (no agregues espacios de más)")
         elif informacion_equipo == None:
-            await message.channel.send(f"<@{id}>, el país que intentaste buscar no clasificó al mundial :(")
+            await message.channel.send(f"<@{id}>, el país que intentaste buscar no clasificó al mundial")
 
     if message.content.lower().startswith('!partidos'):
         try:
@@ -446,7 +407,6 @@ async def on_message(message):
             [info_standings[2]["name_en"], info_standings[2]["mp"], info_standings[2]["w"], info_standings[2]["d"], info_standings[2]["l"], info_standings[2]["pts"]],
             [info_standings[3]["name_en"], info_standings[3]["mp"], info_standings[3]["w"], info_standings[3]["d"], info_standings[3]["l"], info_standings[3]["pts"]]
         ]
-        # footer=["SUM", "130", "140", "150", "130", "135"]
         )
 
         await message.channel.send(f"```\n{output}\n```")
